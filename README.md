@@ -1,2 +1,2 @@
-# Azure_Data_Factories
+# Azure Data Factories
 for projects with Data Factories
