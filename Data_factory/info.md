@@ -53,6 +53,24 @@
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/bd3bb334-b125-4572-8646-6ec0306c0d2b) 
 
+# Create Pipeliens
+
+1. Create new pipeliens - > write name
+2. First step is " Move and transform" - > Copy data . We copy the data from storage to base.
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/d6b37bfc-de71-49e3-b253-27ae583a44be) 
+
+3. Source datasets is our InputCVS.
+4. Sink datasets OutputTable.
+  InputCVS and  OutputTable we created on the previos step.
+5. Click here
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/d7e496de-934e-4edc-9821-24120095884b)
+
+6. Run Debug and find error
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/5942c2fc-0f1c-4fcf-aa92-4ec5b7248fb1) 
+
 
 
 
