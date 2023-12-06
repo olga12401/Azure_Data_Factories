@@ -26,6 +26,8 @@
 
 # Work with Datasets
 
+## Input data from storage
+
 1. Return to Author tab
 2. Datasets -> Create new datasets
 3. Find blob storage -> Continue
@@ -37,6 +39,23 @@
 7. Check you data
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/3d0c2e6f-6b32-481a-86c4-2ef62cd602d8)
+
+## Add info to table in sql base 
+
+1. Create new datasets for output data
+2. Find sql Data base
+3. Set properties
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/e3614a05-f66c-4965-a8c4-e2379ba5ba0a) 
+
+4. Ok
+5. Test Connection
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/bd3bb334-b125-4572-8646-6ec0306c0d2b) 
+
+
+
+
 
 
 
