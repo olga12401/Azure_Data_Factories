@@ -1,6 +1,6 @@
 # Create connection to the blob storage
 
-1.Open data factory
+1. Open data factory
 
 2. Click ti Author  ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/a52767da-4224-4e59-97b7-ecce3e1785d6)
 
