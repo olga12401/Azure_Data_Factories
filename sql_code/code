@@ -1,1 +1,11 @@
-
+CREATE TABLE car_data (
+	Car_Name nvarchar(50) , 
+	Year int ,
+	Selling_Price decimal (10,2) ,
+	Present_Price decimal (10,2) ,
+	Kms_Driven int ,
+	Fuel_Type nvarchar(150) ,
+	Seller_Type nvarchar(150) ,
+	Transmission nvarchar (150) ,
+	Owner nvarchar (150) 
+	)
