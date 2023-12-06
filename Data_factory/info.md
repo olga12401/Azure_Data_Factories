@@ -24,3 +24,20 @@
 4. Test connection Ok
 5. Create
 
+# Work with Datasets
+
+1. Return to Author tab
+2. Datasets -> Create new datasets
+3. Find blob storage -> Continue
+4. Choose the format type of your data ( I choose csv )
+5.  Add set properties - OK 
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/8bf3617d-f3cf-484a-97d3-1915f2ec5693) 
+
+7. Check you data
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/3d0c2e6f-6b32-481a-86c4-2ef62cd602d8)
+
+
+
+
