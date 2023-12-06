@@ -53,9 +53,9 @@
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/bd3bb334-b125-4572-8646-6ec0306c0d2b) 
 
-# Create Pipeliens
+# Create Pipelines
 
-1. Create new pipeliens - > write name
+1. Create new pipelines - > write name
 2. First step is " Move and transform" - > Copy data . We copy the data from storage to base.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/d6b37bfc-de71-49e3-b253-27ae583a44be) 
