@@ -71,8 +71,29 @@
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/5942c2fc-0f1c-4fcf-aa92-4ec5b7248fb1) 
 
+# Add another cvs files using parametrization 
 
+1. Click the datasets for InputCSV
+2. Click "parameters" -> New -> Write Name as "fileName"
+3. Go to Connections
+4. Remove File name and add dynamic content
 
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/d6957a45-5292-4b08-9297-5c92146c091b)
+
+5. Finish
+
+Now a paramiter will be used in this file path to pick the file name.
+6. Click the datasets for Output data (OutputTable)
+7. Click "parameters" -> New -> Write Name as "tableName"
+8. Go to Connection
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/445202d1-76af-4a78-b7c2-546a1cfa70d9)
+
+# Change pipelines 
+
+Now we need to match the name of the parameter and files
+
+ ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/126cdcd2-3cff-4902-9774-e64c1cee37b1)
 
 
 
