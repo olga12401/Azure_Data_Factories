@@ -107,5 +107,11 @@ Now we need to match the name of the parameter and files.
 
 We can now modify the 'Value' in the dataset properties and map all tables and files. There's no need to create distinct sets of input and output data for each file.
 
+If we have a resuts "Debug" as error,  for exsample, we have a different columns name between sql table aan csv file.
+Click to pipepline -> Mapping -> import schemas -> write all match for columns -> debug.
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/3f8717d4-ee33-4e75-9eb8-63a693f69059) 
+
+
 
 
