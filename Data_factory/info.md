@@ -89,11 +89,21 @@ Now a paramiter will be used in this file path to pick the file name.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/445202d1-76af-4a78-b7c2-546a1cfa70d9)
 
-# Change pipelines 
+# Changeing pipelines 
 
-Now we need to match the name of the parameter and files
+Now we need to match the name of the parameter and files.
 
+1. Change a property for Source
  ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/126cdcd2-3cff-4902-9774-e64c1cee37b1)
+
+2. Change a property for Sink
+
+ ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/8246d162-08e1-4f32-bd6b-5ac62d834027) 
+
+3. Click "Debug"
+4. We must get "Pipeline status Succeeded"
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/3132c2e9-3c1d-4f74-94db-b7ce3a0b63d8)
 
 
 
