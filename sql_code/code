@@ -26,26 +26,26 @@ CREATE TABLE car_detailsv3 (
 	seats int
 ) ;
 
-CREATE TABLE car_detailsv3 (
-	Make,
-	Model,
-	Price,
-	Year,
-	Kilometer,
-	Fuel Type,
-	Transmission,
-	Location,
-	Color,
-	Owner,
-	Seller Type,
-	Engine,
-	Max Power,
-	Max Torque,
-	Drivetrain,
-	Length,
-	Width,
-	Height,
-	Seating Capacity,
-	Fuel Tank Capacity
+CREATE TABLE car_detailsv4 (
+	Make nvarchar (150),
+	Model nvarchar (150),
+	Price int,
+	Year int,
+	Kilometer int,
+	Fuel_Type nvarchar (150),
+	Transmission nvarchar (150),
+	Location nvarchar (150),
+	Color nvarchar (150),
+	Owner nvarchar (150),
+	Seller_Type nvarchar (150),
+	Engine nvarchar (150),
+	Max_Power nvarchar (150),
+	Max_Torque nvarchar (150),
+	Drivetrain nvarchar (150),
+	Length nvarchar (150),
+	Width nvarchar (150),
+	Height nvarchar (150),
+	Seating_Capacity nvarchar (150),
+	Fuel_Tank_Capacity nvarchar (150)
 ) ;
 
