@@ -50,7 +50,7 @@ CREATE TABLE car_detailsv4 (
 ) ;
 
 CREATE TABLE car_decho (
-	name nvarchar(50) , 
+	name nvarchar(150) , 
 	year int ,
 	selling_price decimal (10,2) ,
 	km_driven int ,
