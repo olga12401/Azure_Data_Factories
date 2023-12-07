@@ -105,7 +105,7 @@ Now we need to match the name of the parameter and files.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/3132c2e9-3c1d-4f74-94db-b7ce3a0b63d8)
 
-
+We can now modify the 'Value' in the dataset properties and map all tables and files. There's no need to create distinct sets of input and output data for each file.
 
 
 
