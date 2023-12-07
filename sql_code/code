@@ -8,4 +8,44 @@ CREATE TABLE car_data (
 	Seller_Type nvarchar(150) ,
 	Transmission nvarchar (150) ,
 	Owner nvarchar (150) 
-	)
+	) ;
+
+CREATE TABLE car_detailsv3 (
+	name nvarchar (150) ,
+	year int,
+	selling_price decimal (10,2),
+	km_driven decimal (10,2),
+	fuel nvarchar (150) ,
+	seller_type nvarchar (150) ,
+	transmission nvarchar (150) ,
+	owner nvarchar (150) ,
+	mileage nvarchar (150) ,
+	engine nvarchar (150) ,
+	max_power nvarchar (150) ,
+	torque nvarchar (150) ,
+	seats int
+) ;
+
+CREATE TABLE car_detailsv3 (
+	Make,
+	Model,
+	Price,
+	Year,
+	Kilometer,
+	Fuel Type,
+	Transmission,
+	Location,
+	Color,
+	Owner,
+	Seller Type,
+	Engine,
+	Max Power,
+	Max Torque,
+	Drivetrain,
+	Length,
+	Width,
+	Height,
+	Seating Capacity,
+	Fuel Tank Capacity
+) ;
+
