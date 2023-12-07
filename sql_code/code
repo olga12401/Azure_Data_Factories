@@ -49,3 +49,13 @@ CREATE TABLE car_detailsv4 (
 	Fuel_Tank_Capacity nvarchar (150)
 ) ;
 
+CREATE TABLE car_decho (
+	name nvarchar(50) , 
+	year int ,
+	selling_price decimal (10,2) ,
+	km_driven int ,
+	fuel nvarchar(150) ,
+	seller_type nvarchar(150) ,
+	transmission nvarchar (150) ,
+	owner nvarchar (150) 
+	) ;
