@@ -5,19 +5,15 @@
 		"typeProperties": {
 			"sources": [
 				{
-					"dataset": {
-						"referenceName": "InputOrderDataset",
-						"type": "DatasetReference"
-					},
 					"name": "Order"
 				}
 			],
 			"sinks": [],
 			"transformations": [],
 			"scriptLines": [
-				"source(allowSchemaDrift: true,",
+				"source(allowSchemaDrift: false,",
 				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> Order"
+				"     fileList: true) ~> Order"
 			]
 		}
 	}
