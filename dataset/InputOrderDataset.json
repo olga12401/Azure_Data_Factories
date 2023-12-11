@@ -1,5 +1,5 @@
 {
-	"name": "OrderDataset",
+	"name": "InputOrderDataset",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "inputblobstorage",
