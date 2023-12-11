@@ -1,12 +1,12 @@
 {
-	"name": "InputOrderDataset",
+	"name": "InputMenyItems",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "inputblobstorage",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"fileName": {
+			"fileName2": {
 				"type": "string"
 			}
 		},
@@ -16,7 +16,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@dataset().fileName",
+					"value": "@dataset().fileName2",
 					"type": "Expression"
 				},
 				"container": "input"
@@ -26,6 +26,23 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "menu_item_id",
+				"type": "String"
+			},
+			{
+				"name": "item_name",
+				"type": "String"
+			},
+			{
+				"name": "category",
+				"type": "String"
+			},
+			{
+				"name": "price",
+				"type": "String"
+			}
+		]
 	}
 }
