@@ -1,0 +1,9 @@
+{
+	"name": "df-surfanalytic-demo",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3de57b64-4062-42ee-95a5-b21c75822aa7",
+		"tenantId": "40a6c74b-fac4-48db-b9dc-540ae32d96fe"
+	}
+}
