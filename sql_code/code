@@ -3,6 +3,13 @@ CREATE TABLE order_details (
 	order_id int ,
 	order_date date ,
 	order_time time ,
-	item_id int
+	item_id nvarchar(200)
 	) ;
+
+CREATE TABLE menu_items (
+	menu_item_id nvarchar(200),
+	item_name nvarchar(200),
+	category nvarchar (200),
+	price decimal(10,2)
+) ;
 
