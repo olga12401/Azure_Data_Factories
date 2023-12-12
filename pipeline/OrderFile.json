@@ -29,9 +29,16 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobStorageWriteSettings",
+							"copyBehavior": "MergeFiles"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".txt"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -51,7 +58,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "OutputSqlOrders",
+						"referenceName": "OrderDetails",
 						"type": "DatasetReference"
 					}
 				]
