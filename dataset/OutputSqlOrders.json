@@ -1,0 +1,41 @@
+{
+	"name": "OutputSqlOrders",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OutputDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "order_details_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "order_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "order_date",
+				"type": "date"
+			},
+			{
+				"name": "order_time",
+				"type": "time",
+				"scale": 7
+			},
+			{
+				"name": "item_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "order_details"
+		}
+	}
+}
