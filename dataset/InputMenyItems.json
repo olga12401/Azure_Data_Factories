@@ -5,22 +5,13 @@
 			"referenceName": "inputblobstorage",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"fileName2": {
-				"type": "string",
-				"defaultValue": "menu_items"
-			}
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@dataset().fileName2",
-					"type": "Expression"
-				},
-				"container": "input"
+				"fileName": "menu_items.csv",
+				"container": "input-items"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
