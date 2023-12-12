@@ -20,12 +20,11 @@
 			},
 			{
 				"name": "order_date",
-				"type": "date"
+				"type": "nvarchar"
 			},
 			{
 				"name": "order_time",
-				"type": "time",
-				"scale": 7
+				"type": "nvarchar"
 			},
 			{
 				"name": "item_id",
