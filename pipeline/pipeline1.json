@@ -29,7 +29,8 @@
 		],
 		"parameters": {
 			"FileNamePattern": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "@concat( 'order_details', '.csv' )"
 			}
 		},
 		"annotations": []
