@@ -1,0 +1,35 @@
+{
+	"name": "OutputMenyItems",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "OutputDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "menu_item_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "item_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "category",
+				"type": "nvarchar"
+			},
+			{
+				"name": "price",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "menu_items"
+		}
+	}
+}
