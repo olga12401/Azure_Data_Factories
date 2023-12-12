@@ -91,8 +91,8 @@
 								},
 								"sink": {
 									"name": "item_id",
-									"type": "Int32",
-									"physicalType": "int"
+									"type": "String",
+									"physicalType": "nvarchar"
 								}
 							}
 						],
