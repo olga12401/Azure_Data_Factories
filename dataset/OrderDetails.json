@@ -1,0 +1,43 @@
+{
+	"name": "OrderDetails",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "inputblobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "order_details_id",
+				"type": "String"
+			},
+			{
+				"name": "order_id",
+				"type": "String"
+			},
+			{
+				"name": "order_date",
+				"type": "String"
+			},
+			{
+				"name": "order_time",
+				"type": "String"
+			},
+			{
+				"name": "item_id",
+				"type": "String"
+			}
+		]
+	}
+}
