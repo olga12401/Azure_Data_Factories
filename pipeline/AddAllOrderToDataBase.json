@@ -20,10 +20,6 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
-							"wildcardFileName": {
-								"value": "@concat('order_details', '.csv')",
-								"type": "Expression"
-							},
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -71,25 +67,27 @@
 								},
 								"sink": {
 									"name": "order_date",
-									"type": "DateTime",
-									"physicalType": "date"
+									"type": "String",
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
 									"name": "order_time",
-									"type": "String"
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "order_time",
-									"type": "TimeSpan",
-									"physicalType": "time"
+									"type": "String",
+									"physicalType": "nvarchar"
 								}
 							},
 							{
 								"source": {
 									"name": "item_id",
-									"type": "String"
+									"type": "String",
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "item_id",
@@ -107,7 +105,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "OrderDetails",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
