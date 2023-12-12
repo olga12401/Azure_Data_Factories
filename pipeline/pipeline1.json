@@ -44,10 +44,7 @@
 				"inputs": [
 					{
 						"referenceName": "InputOrderDataset",
-						"type": "DatasetReference",
-						"parameters": {
-							"fileName": "@pipeline().parameters.FileNamePattern"
-						}
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
@@ -77,6 +74,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"dataflow": {
+						"referenceName": "dataflow1",
+						"type": "DataFlowReference"
+					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
