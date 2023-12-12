@@ -35,6 +35,66 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "order_details_id",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "order_details_id",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "order_id",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "order_id",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "order_date",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "order_date",
+									"type": "DateTime",
+									"physicalType": "date"
+								}
+							},
+							{
+								"source": {
+									"name": "order_time",
+									"type": "String"
+								},
+								"sink": {
+									"name": "order_time",
+									"type": "TimeSpan",
+									"physicalType": "time"
+								}
+							},
+							{
+								"source": {
+									"name": "item_id",
+									"type": "String"
+								},
+								"sink": {
+									"name": "item_id",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
