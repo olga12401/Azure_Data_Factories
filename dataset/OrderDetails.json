@@ -10,10 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@concat('order_details',\r\n        '.csv'\r\n    )   ",
-					"type": "Expression"
-				},
 				"container": "input"
 			},
 			"columnDelimiter": ",",
