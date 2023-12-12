@@ -1,0 +1,58 @@
+{
+	"name": "dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "OutputSqlOrders",
+						"type": "DatasetReference"
+					},
+					"name": "orders"
+				},
+				{
+					"dataset": {
+						"referenceName": "OutputMenyItems",
+						"type": "DatasetReference"
+					},
+					"name": "items"
+				}
+			],
+			"sinks": [],
+			"transformations": [
+				{
+					"name": "join1"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          order_details_id as integer,",
+				"          order_id as integer,",
+				"          order_date as string,",
+				"          order_time as string,",
+				"          item_id as integer",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     format: 'table') ~> orders",
+				"source(output(",
+				"          menu_item_id as string,",
+				"          item_name as string,",
+				"          category as string,",
+				"          price as decimal(10,2)",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     format: 'table') ~> items",
+				"orders, items join(item_id == menu_item_id,",
+				"     joinType:'left',",
+				"     matchType:'exact',",
+				"     ignoreSpaces: false,",
+				"     broadcast: 'auto')~> join1"
+			]
+		}
+	}
+}
