@@ -28,8 +28,7 @@
 			},
 			{
 				"name": "item_id",
-				"type": "int",
-				"precision": 10
+				"type": "nvarchar"
 			}
 		],
 		"typeProperties": {
