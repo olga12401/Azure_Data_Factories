@@ -1,6 +1,7 @@
 {
 	"name": "OutputSqlOrders",
 	"properties": {
+		"description": "table in the database",
 		"linkedServiceName": {
 			"referenceName": "OutputDatabase",
 			"type": "LinkedServiceReference"
