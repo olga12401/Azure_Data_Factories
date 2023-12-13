@@ -1,6 +1,7 @@
 {
-	"name": "DelimitedText1",
+	"name": "MergeOrdersToOneCSV",
 	"properties": {
+		"description": "file save in the storage",
 		"linkedServiceName": {
 			"referenceName": "inputblobstorage",
 			"type": "LinkedServiceReference"
