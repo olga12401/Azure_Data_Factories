@@ -13,3 +13,13 @@ CREATE TABLE menu_items (
 	price decimal(10,2)
 ) ;
 
+CREATE TABLE sale (
+	order_details_id int,
+	order_id int ,
+	order_date nvarchar(200) ,
+	order_time nvarchar(200) ,
+	item_id nvarchar(200) ,
+	item_name nvarchar(200) ,
+	category nvarchar(200) ,
+	price decimal (10,2) 
+	) ;
