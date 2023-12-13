@@ -1,5 +1,5 @@
 {
-	"name": "AddAllOrderToDataBase",
+	"name": "AddDataToDataBase",
 	"properties": {
 		"activities": [
 			{
@@ -119,7 +119,14 @@
 			{
 				"name": "Add All Item To DataBase",
 				"type": "Copy",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Add All Order To DataBase",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
