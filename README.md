@@ -73,4 +73,16 @@ It's critically important to consider the data volume, required update frequency
 
 In this example, let's consider a scenario where we have many files all stored in one folder in storage. Our goal is to create a pipeline that allows us to merge the files into one and store them in a container. 
 
+### Steps 
+
+1. Create dataset for input files ( Orders) -> Factory Resource -> Datasets -> create new
+2. Find blob storage -> Continue
+3. Choose the format type of your data ( I choose csv )
+4. Add set properties: Name, choose storage, file push. I selected only the 'input' folder containing my 'Orders details' files because I want to merge all these files into one. All files have the same structure. Import schema = from connection/storage
+5. Ok
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/8d043a91-edd3-4ef0-ae6f-3cf7034567e2)
+
+6. Test connection
+
 
