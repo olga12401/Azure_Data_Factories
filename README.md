@@ -105,7 +105,14 @@ In this example, let's consider a scenario where we have many files all stored i
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/d10e86cd-3519-4461-ab96-5d160fc11651)
 
+## Create a pipeline to transform the information and then transfer it to the database
 
- 
+Scheme pipelene
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/477b4360-71f5-4d51-8cc1-043bda2d98df)
+
+Scheme data flows
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/efb56de2-63c5-40c1-8e52-62c749caf8af) 
 
 
