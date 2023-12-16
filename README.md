@@ -93,5 +93,10 @@ In this example, let's consider a scenario where we have many files all stored i
 10. Choose datasets (this dataset consists of orders files from the 'input' folder in the storage).
 11. File path type: Wildcard file path = OK.
 12. Wildcard paths to write '*' because we will use all files from the 'input' container.
+13. Go to Sink
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/b49bce5b-bcba-41e2-84a7-5156d5f1700f) 
+
+
 
 
