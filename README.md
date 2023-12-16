@@ -84,5 +84,10 @@ In this example, let's consider a scenario where we have many files all stored i
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/8d043a91-edd3-4ef0-ae6f-3cf7034567e2)
 
 6. Test connection
+7. Open Activities -> Move and transform -> Copy data
+8. Create name for pipeline
+9. Go to Source
 
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/6235eefd-1ef4-4ea1-9924-9f5dee5c1c7d)
 
+10. Choose datasets (this dataset comprises orders files from the 'input' folder in the storage).
