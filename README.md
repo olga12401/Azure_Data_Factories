@@ -22,6 +22,8 @@ Data Set for example: https://mavenanalytics.io/data-playground?accessType=open&
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/123f30ac-28f2-4f64-99df-7fbc53f9df50)
 
- 
-
+# SQL Database
+1. Open database
+2. Query editor
+3. Create tables
 
