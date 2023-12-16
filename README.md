@@ -6,8 +6,10 @@
 2. Storing data in storage and a SQL database: We plan to save the merged data in Azure storage and transfer it for storage and processing in a SQL database.
 3. Development of a pipeline to transform files in Azure Data Factory: Creating this pipeline in Azure Data Factory will facilitate the process of transforming data from files and saving the obtained results in the database for further use.
 
-
+# Preparatory steps
 1. Create resourse group
 2. Create storage account
 3. Create SQL database
 4. Click Data Factories -> Create
+
+
