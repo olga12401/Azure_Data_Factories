@@ -1,4 +1,4 @@
-# Azure Data Factories
+# Azure Data Factory
 
 Data Set for example: https://mavenanalytics.io/data-playground?accessType=open&tags=NXBNqbCUPNOBzgZYNeH6x  Restaurant Orders .
 
