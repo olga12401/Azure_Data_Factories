@@ -101,7 +101,7 @@ In this example, let's consider a scenario where we have many files all stored i
 15. Copy behavior = Merge files. This is the command to combine my files into one.
 16. In File extension to choose .csv (tipe new file in container 'input')
 17. Debug
-18.  Check results in the storage
+18. Check result in the storage
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/d10e86cd-3519-4461-ab96-5d160fc11651)
 
