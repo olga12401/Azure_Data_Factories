@@ -1,5 +1,8 @@
 # Azure Data Factories
 
+Data Set for example: https://mavenanalytics.io/data-playground?accessType=open&tags=NXBNqbCUPNOBzgZYNeH6x  Restaurant Orders .
+
+Downloaded 
 # Goal
 
 1. Creation of a pipeline to merge multiple files with the same structure: This pipeline will enable the merging of data from different files into a single file for further processing.
@@ -11,5 +14,9 @@
 2. Create storage account
 3. Create SQL database
 4. Click Data Factories -> Create
+
+# Work with storage
+
+
 
 
