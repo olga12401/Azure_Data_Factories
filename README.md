@@ -90,4 +90,8 @@ In this example, let's consider a scenario where we have many files all stored i
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/6235eefd-1ef4-4ea1-9924-9f5dee5c1c7d)
 
-10. Choose datasets (this dataset comprises orders files from the 'input' folder in the storage).
+10. Choose datasets (this dataset consists of orders files from the 'input' folder in the storage).
+11. File path type: Wildcard file path = OK.
+12. Wildcard paths to write '*' because we will use all files from the 'input' container.
+
+
