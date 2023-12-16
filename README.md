@@ -16,6 +16,12 @@ Data Set for example: https://mavenanalytics.io/data-playground?accessType=open&
 
 # Work with storage
 
+1. Create container for orders files
+2. Create conteiner for other files
+3. Input files for conteners
 
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/123f30ac-28f2-4f64-99df-7fbc53f9df50)
+
+ 
 
 
