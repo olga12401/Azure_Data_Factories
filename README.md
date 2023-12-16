@@ -25,5 +25,7 @@ Data Set for example: https://mavenanalytics.io/data-playground?accessType=open&
 # SQL Database
 1. Open database
 2. Query editor
-3. Create tables
+3. Create tables for data
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/16a06bce-236c-43e4-a810-abefb31a43b3)
 
