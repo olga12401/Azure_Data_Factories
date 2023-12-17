@@ -119,4 +119,17 @@ Scheme data flows
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/efb56de2-63c5-40c1-8e52-62c749caf8af) 
 
+### Steps
 
+1. We need to create datasets for input and output data from the 'items' and 'orders' files. For each file, we'll create one dataset for input data from a CSV file and another dataset for output data into an SQL table
+2. Factory Resources -> Data sets -> create new -> Azure Blob Storage -> CSV file (type)
+3. Add set properties
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/ceee32da-0b33-4fe0-b0e0-49086477b646)
+
+4. Test connection
+5. Data sets -> create new ->Azure SQL DataBase - > choose database and write Name 
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/61b554d5-6032-44fc-94de-c95a2ae890b7)
+
+6. 
