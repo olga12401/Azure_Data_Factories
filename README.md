@@ -140,17 +140,17 @@ Scheme data flows
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/6de8c983-664f-4704-a4f2-06470bae56fd)
 
-8. Complete steps 2 through 8 for the 'Orders' file (create two datasets).
-9. Factory Resources -> Pipeline - > Create new -> Activities -> Move and transform -> Copy data
-10. select element. General tab -> write name for element
+8. Complete steps 2 through 8 for the 'Orders' file to create two datasets. 
+9. Go to Factory Resources -> Pipeline -> Create new -> Activities -> Move and transform -> Copy data .
+10. Select the element and navigate to the General tab to give it a name.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/0cb8ac47-7710-43f1-a41c-9a68563ed30b)
 
-11. Click 'Source' tab
-12. Source dataset -> choose datasets for input file from the storage
-13. File path type -> File path in dataset
-14. We can make 'oreview date' and look our table.
-15. Click Sink and choose 'Sink dataset' with the table in the data base
+11. CClick on the 'Source' tab.
+12. Source dataset -> choose datasets for input file from the storage.
+13. File path type -> File path in dataset.
+14. Preview the data and review the table.
+15. Click on 'Sink' and select the 'Sink dataset' corresponding to the table in the database.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/2a51c047-39c7-40bc-959a-67938670f9b7)
 
@@ -161,47 +161,47 @@ Scheme data flows
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/73d7c6a2-b958-408e-a4be-a7f79a96f76a)
 
 19. When working with data flows, we need to enable 'Data flows debug' to check our flow. Remember to disable 'Data flows debug' after creating the flows because you will be charged for it
-20. Check 'Projection' and 'Inspect'.
-21. Data preview - refresh. We must see out table with the data, if we don't have error.
-22. Add second table to source.
-23. Click '+' near first table and find actions
+20. Click 'Projection' and 'Inspect' tabs. Check schema.
+21. Refresh the data preview - we should see our table with the data if there are no errors
+22. Add the second table as the source.
+23. Click '+' next to the first table and look for actions
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/bcf2f390-dc54-4c98-8b65-655c685b358a)
 
-24. Add 'Sort'. I want to sort table by order_id
+24. Add 'Sort'. I want to sort table by order_id. 
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/bf8276d6-c13f-46e4-bad1-a3c716e2fcb3) 
 
-25. Add new actions 'Join' and choos properties fot actions. After make 'data preview' and check table.
+25. Add a new action 'Join' and select the properties for this action. Afterward, perform a 'data preview' to check the table.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/daa53b38-0790-4321-a591-df94b1c8a94c)
 
-24. I know that my 'Item' table has value NULL in column item_id, but I don't need this rows, so I create new actions 'Filter' me new table.
+24. I'm aware that my 'Item' table contains NULL values in the 'item_id' column, but I don't need these rows. Therefore, I'm creating a new 'Filter' action for my table.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/8dc94a2a-7744-4fd2-9f8d-f8579fa699cb)
 
-25. After refreshing I see that my table has two columns with the same information about 'item_id. I need only one.
+25. After refreshing, I noticed that my table contains two columns with identical information about 'item_id.' I only need one of them. 
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/f103e018-18df-4172-8603-cd397b0d0181)
 
-26. Create new action 'RemoveColumn'
+26. Create a new action 'RemoveColumn'
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/6069d025-5052-429b-9f61-d22a4adaf249)
 
-Find colunm that we want to delete and click 'remove mapping'. 
+Locate the column we want to delete and click 'remove mapping
 
 27. Data Preview -> Refresh .
-28. If we make all transformation then last step will be always 'Sink'
+28.Once all transformations are completed, the final step will always be the 'Sink'.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/a18216b2-8dc7-4f70-9451-8d12d8df9b68)
 
-29. Add sink properties and agaein 'Data preview' -> Refresh.
-30. Click 'Data flows debug' desable, if it doen't have error.
-31. Click to pipeline -> add activity -> Data flow
+29. Set the 'Sink' properties and again refresh the 'Data Preview.'
+30. Disable 'Data Flows Debug' if there are no errors
+31. Click on the pipeline and add the activity 'Data Flow'
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/c9e4bc1a-9da4-4fcf-8108-e4b1d03981b6)
 
-32. In 'General' tab to choose our data flow, that we creted .
+32. In the 'General' tab, select the data flow that we created.
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/5515a5dd-a99b-4bc1-ace9-384281d8a6e0)
 
