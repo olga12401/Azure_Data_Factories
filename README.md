@@ -154,3 +154,10 @@ Scheme data flows
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/2a51c047-39c7-40bc-959a-67938670f9b7)
 
+16. Add new Activity 'Copy data' and complete steps 9 through 15 for second file.
+17. Let's start creating the third table, which we will place in the database. 
+For this we need 2 tables from the database 'orders' and 'item'. Factory Resources -> Data flows -> create new
+18. Add sourse. It will be the table from sql database.
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/73d7c6a2-b958-408e-a4be-a7f79a96f76a)
+
