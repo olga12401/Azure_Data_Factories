@@ -128,8 +128,10 @@ Scheme data flows
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/ceee32da-0b33-4fe0-b0e0-49086477b646)
 
 4. Test connection
-5. Data sets -> create new ->Azure SQL DataBase - > choose database and write Name 
+5. Data sets -> create new ->Azure SQL DataBase - > choose database and write Name - >Continue
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/61b554d5-6032-44fc-94de-c95a2ae890b7)
 
-6. 
+6. Test conection
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/76498605-e43b-4e1d-b77d-4a6f1a8dfa84)
