@@ -141,4 +141,10 @@ Scheme data flows
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/6de8c983-664f-4704-a4f2-06470bae56fd)
 
 8. Complete steps 2 through 8 for the 'Orders' file (create two datasets).
-9. 
+9. Factory Resources -> Pipeline - > Create new -> Activities -> Move and transform -> Copy data
+10. select element. General tab -> write name for element
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/0cb8ac47-7710-43f1-a41c-9a68563ed30b)
+
+11. Click 'Source' tab
+12. 
