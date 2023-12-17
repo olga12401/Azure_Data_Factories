@@ -147,4 +147,10 @@ Scheme data flows
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/0cb8ac47-7710-43f1-a41c-9a68563ed30b)
 
 11. Click 'Source' tab
-12. 
+12. Source dataset -> choose datasets for input file from the storage
+13. File path type -> File path in dataset
+14. We can make 'oreview date' and look our table.
+15. Click Sink and choose 'Sink dataset' with the table in the data base
+
+![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/2a51c047-39c7-40bc-959a-67938670f9b7)
+
