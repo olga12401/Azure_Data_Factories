@@ -207,4 +207,5 @@ Find colunm that we want to delete and click 'remove mapping'.
 
 33. Click in the empty space and click 'Debug'.
 34. We will carry out the steps sequentially, if there are no errors, then all the data will appear in the database.
-35. Go to the sql database and check information in the tables. 
+35. Go to the sql database and check information in the tables.
+36. Remember that when you click 'debug' again, the data from the file in storage will be copied again to the database. Therefore, you should clear the tables in the database by running the 'DELETE FROM table_name' command before running the 'debug' again in this example.
