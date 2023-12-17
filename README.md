@@ -111,6 +111,10 @@ Scheme pipelene
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/477b4360-71f5-4d51-8cc1-043bda2d98df)
 
+On the Azure portal, a pipeline consisting of three key stages was created. The first two stages are aimed at extracting data from the 'items' and 'orders' files. 'Orders' is obtained as a result of executing the pipeline named 'MergeOrdersCSV'. After loading this data into the SQL database, our goal is to apply data flows and perform a join operation to create a new dataset, which will also be loaded into the SQL database table.
+
+All three stages are structured with arrows indicating the sequential execution of all operations. Each action logically continues the previous one, ensuring a clear sequence of operations in the data processing workflow on the Azure platform.
+
 Scheme data flows
 
 ![image](https://github.com/olga12401/Azure_Data_Factories/assets/86374953/efb56de2-63c5-40c1-8e52-62c749caf8af) 
